@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="witdh=device-width,initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body dir="ltr">
+        <div class="wrapper">
+            <div class="child">Something 1</div>
+            <div class="child">
+                <p>Something 2</p>
+                <p>Something 2</p>
+                <p>Something 2</p>
+                <p>Something 2</p>
+            </div>
+            <div class="child" style="align-self: flex-end;">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+            <div class="child">Something 2</div>
+            <div class="child">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+            <div class="child">Something 2</div>
+            <div class="child">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+            <div class="child">Something 2</div>
+            <div class="child">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+            <div class="child">Something 2</div>
+            <div class="child">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+            <div class="child">Something 2</div>
+            <div class="child">Something 3</div>
+            <div class="child">Something 4</div>
+            <div class="child">Something 5</div>
+        </div>
+    </body>
+
+    <style>
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            /* align-content: space-around; */
+            gap: 1rem;
+            
+        }
+        .child {
+            flex-shrink: 1;
+            background-color: blueviolet;
+            color: wheat;
+        }
+    </style>
+</html>
